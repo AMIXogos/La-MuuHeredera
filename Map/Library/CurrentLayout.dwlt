@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -64,8 +64,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 635
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -283,9 +283,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 260
-    y: 92
-    width: 827
+    x: 240
+    y: 94
+    width: 761
     height: 343
 --- !u!114 &13
 MonoBehaviour:
@@ -324,20 +324,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "/Users/xoancosmed/Documents/Universidad/4\xBA Telecomunicaciones/PSI
     (4\xBA Teleco)/JUEGO/Map"
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 71}
-    m_SelectedIDs: d4280000
-    m_LastClickedID: 10452
-    m_ExpandedIDs: 00000000d4280000882900008e290000fe2900001a2a0000702a0000d22a0000d62a0000fe2b000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: b6320000
+    m_LastClickedID: 12982
+    m_ExpandedIDs: 000000003c250000082600008a260000ac260000062700007027000074270000c22800007e3200008832000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -365,7 +365,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d4280000882900008e290000fe2900001a2a0000702a0000d22a0000d62a0000fe2b0000
+    m_ExpandedIDs: 000000003c250000082600000e2600008a260000ac260000062700007027000074270000c2280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -392,7 +392,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300003c330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -483,7 +483,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 4af6ffff00000000
+    m_ExpandedIDs: f2e7ffffc6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -533,14 +533,14 @@ MonoBehaviour:
     width: 761
     height: 343
   m_SceneLighting: 1
-  lastFramingTime: 5335.005502964212
+  lastFramingTime: 762.7687410116196
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 479.1831, y: -70.57489, z: 286.82202}
+    m_Target: {x: 25.737318, y: 22.65045, z: 448.7275}
     speed: 2
-    m_Value: {x: 479.1831, y: -70.57489, z: 286.82202}
+    m_Value: {x: 25.737318, y: 22.65045, z: 448.7275}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -563,13 +563,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.19437754, y: 0.7177495, z: -0.2211042, w: 0.63100404}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0.19437754, y: 0.7177495, z: -0.2211042, w: 0.63100404}
+    m_Value: {x: 0, y: 0, z: 0, w: 0.99999994}
   m_Size:
-    m_Target: -236.12646
+    m_Target: 22.704866
     speed: 2
-    m_Value: -236.12646
+    m_Value: 22.704866
   m_Ortho:
     m_Target: 0
     speed: 2

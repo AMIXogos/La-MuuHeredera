@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/escenaTerreno.unity
+- path: Assets/Scenes/escenaTerreno.unity
   isLoaded: 1
   isActive: 1
