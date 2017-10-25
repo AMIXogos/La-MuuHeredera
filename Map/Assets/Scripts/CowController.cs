@@ -62,7 +62,7 @@ public class CowController : MonoBehaviour {
         }
 
         /* Aquí habría que presentar el menú */
-
+	
         // MOVIMIENTO
 
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))

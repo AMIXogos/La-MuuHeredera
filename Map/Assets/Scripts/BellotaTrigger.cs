@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BellotaTrigger : MonoBehaviour {
 
@@ -19,6 +20,7 @@ public class BellotaTrigger : MonoBehaviour {
             gameController.GetComponent<PlayerData>().numero_bellotas++;
             Debug.Log(gameController.GetComponent<PlayerData>().numero_bellotas);
             Destroy(gameObject);
+
 
         }
 
