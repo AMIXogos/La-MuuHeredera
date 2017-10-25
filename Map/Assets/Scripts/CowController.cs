@@ -36,9 +36,13 @@ public class CowController : MonoBehaviour {
     public float zoomMin = 15f;
     public float zoomMax = 90f;
 
+    private GameObject gameController;
+
     // FUNCIONES
 
     void Start () {
+
+        gameController = GameObject.Find("GameController");
 
         rb = GetComponent<Rigidbody>();
 
@@ -234,6 +238,26 @@ public class CowController : MonoBehaviour {
         rb.velocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
 
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.name.Equals("LOBO"))
+        {
+            int danho = gameController.GetComponent<PlayerData>().danhoJugador;
+            gameController.GetComponent<PlayerData>().vidaTemporalEnemigo = gameController.GetComponent<PlayerData>().vidaTemporalEnemigo - danho;
+            Debug.Log("Vida lobo: " + gameController.GetComponent<PlayerData>().vidaTemporalEnemigo);
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.name.Equals("LOBO"))
+        {
+            int danho = gameController.GetComponent<PlayerData>().danhoJugador;
+            gameController.GetComponent<PlayerData>().vidaTemporalEnemigo = gameController.GetComponent<PlayerData>().vidaTemporalEnemigo - danho;
+            Debug.Log("Vida lobo: " + gameController.GetComponent<PlayerData>().vidaTemporalEnemigo);
+        }
     }
 
 }

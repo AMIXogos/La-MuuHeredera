@@ -1,15 +1,18 @@
-﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BellotaTrigger.cs">
+﻿<Properties StartupConfiguration="{832E5DD7-F97E-C6A8-B81C-EAFAD49B1656}|">
+  <MonoDevelop.Ide.ItemProperties.Map PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerData.cs">
     <Files>
-      <File FileName="Assets\Scripts\MenuController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CowController.cs" Line="13" Column="39" />
-      <File FileName="Assets\Scripts\BellotaTrigger.cs" Line="6" Column="44" />
-      <File FileName="Assets\Scripts\PlayerData.cs" Line="41" Column="2" />
+      <File FileName="Assets/Scripts/LoboController.cs" Line="11" Column="38" />
+      <File FileName="Assets/Scripts/CowController.cs" Line="78" Column="33" />
+      <File FileName="Assets/Scripts/PlayerData.cs" Line="5" Column="12" />
+      <File FileName="Assets/Scripts/BellotaTrigger.cs" Line="26" Column="1" />
+      <File FileName="Assets/Scripts/ZarpaController.cs" Line="19" Column="44" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>
